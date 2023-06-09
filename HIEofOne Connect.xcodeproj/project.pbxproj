@@ -9,21 +9,50 @@
 /* Begin PBXBuildFile section */
 		0720157D2A29623600536933 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0720157C2A29623600536933 /* AppDelegate.swift */; };
 		0720157F2A29623600536933 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0720157E2A29623600536933 /* SceneDelegate.swift */; };
-		072015812A29623600536933 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072015802A29623600536933 /* ViewController.swift */; };
 		072015842A29623600536933 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 072015822A29623600536933 /* Main.storyboard */; };
 		072015862A29623700536933 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 072015852A29623700536933 /* Assets.xcassets */; };
 		072015892A29623700536933 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 072015872A29623700536933 /* LaunchScreen.storyboard */; };
+		072015922A29625400536933 /* ModelsBuild in Frameworks */ = {isa = PBXBuildFile; productRef = 072015912A29625400536933 /* ModelsBuild */; };
+		072015942A29625400536933 /* ModelsDSTU2 in Frameworks */ = {isa = PBXBuildFile; productRef = 072015932A29625400536933 /* ModelsDSTU2 */; };
+		072015962A29625400536933 /* ModelsR4 in Frameworks */ = {isa = PBXBuildFile; productRef = 072015952A29625400536933 /* ModelsR4 */; };
+		072015982A29625400536933 /* ModelsR4B in Frameworks */ = {isa = PBXBuildFile; productRef = 072015972A29625400536933 /* ModelsR4B */; };
+		0720159A2A29625400536933 /* ModelsR5 in Frameworks */ = {isa = PBXBuildFile; productRef = 072015992A29625400536933 /* ModelsR5 */; };
+		0720159C2A29625400536933 /* ModelsSTU3 in Frameworks */ = {isa = PBXBuildFile; productRef = 0720159B2A29625400536933 /* ModelsSTU3 */; };
+		072015A62A29626C00536933 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0720159D2A29626A00536933 /* RoundedButton.swift */; };
+		072015A72A29626C00536933 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0720159E2A29626B00536933 /* Utilities.swift */; };
+		072015A82A29626C00536933 /* FHIRSourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0720159F2A29626B00536933 /* FHIRSourceViewController.swift */; };
+		072015A92A29626C00536933 /* FHIRResources+DisplayItemProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072015A02A29626B00536933 /* FHIRResources+DisplayItemProvider.swift */; };
+		072015AA2A29626C00536933 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072015A12A29626B00536933 /* MainViewController.swift */; };
+		072015AB2A29626C00536933 /* PartialFHIRResources+DisplayItemProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072015A22A29626B00536933 /* PartialFHIRResources+DisplayItemProvider.swift */; };
+		072015AC2A29626C00536933 /* PartialFHIRResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072015A32A29626B00536933 /* PartialFHIRResources.swift */; };
+		072015AD2A29626C00536933 /* DisplayItemProviders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072015A42A29626C00536933 /* DisplayItemProviders.swift */; };
+		072015AE2A29626C00536933 /* DisplayItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072015A52A29626C00536933 /* DisplayItem.swift */; };
+		072015B12A2972BA00536933 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072015AF2A2972BA00536933 /* ScannerViewController.swift */; };
+		072015B22A2972BA00536933 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072015B02A2972BA00536933 /* CategoryViewController.swift */; };
+		072015B62A2981C500536933 /* NOSHConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072015B52A2981C500536933 /* NOSHConnect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		072015792A29623600536933 /* HIEofOne Connect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HIEofOne Connect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0720157C2A29623600536933 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0720157E2A29623600536933 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		072015802A29623600536933 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		072015832A29623600536933 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		072015852A29623700536933 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		072015882A29623700536933 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0720158A2A29623700536933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0720159D2A29626A00536933 /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		0720159E2A29626B00536933 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		0720159F2A29626B00536933 /* FHIRSourceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FHIRSourceViewController.swift; sourceTree = "<group>"; };
+		072015A02A29626B00536933 /* FHIRResources+DisplayItemProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FHIRResources+DisplayItemProvider.swift"; sourceTree = "<group>"; };
+		072015A12A29626B00536933 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		072015A22A29626B00536933 /* PartialFHIRResources+DisplayItemProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PartialFHIRResources+DisplayItemProvider.swift"; sourceTree = "<group>"; };
+		072015A32A29626B00536933 /* PartialFHIRResources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartialFHIRResources.swift; sourceTree = "<group>"; };
+		072015A42A29626C00536933 /* DisplayItemProviders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayItemProviders.swift; sourceTree = "<group>"; };
+		072015A52A29626C00536933 /* DisplayItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayItem.swift; sourceTree = "<group>"; };
+		072015AF2A2972BA00536933 /* ScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		072015B02A2972BA00536933 /* CategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		072015B42A29765400536933 /* HIEofOne Connect.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "HIEofOne Connect.entitlements"; sourceTree = "<group>"; };
+		072015B52A2981C500536933 /* NOSHConnect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NOSHConnect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +60,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				072015922A29625400536933 /* ModelsBuild in Frameworks */,
+				0720159C2A29625400536933 /* ModelsSTU3 in Frameworks */,
+				0720159A2A29625400536933 /* ModelsR5 in Frameworks */,
+				072015982A29625400536933 /* ModelsR4B in Frameworks */,
+				072015962A29625400536933 /* ModelsR4 in Frameworks */,
+				072015942A29625400536933 /* ModelsDSTU2 in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +91,35 @@
 		0720157B2A29623600536933 /* HIEofOne Connect */ = {
 			isa = PBXGroup;
 			children = (
+				072015B42A29765400536933 /* HIEofOne Connect.entitlements */,
 				0720157C2A29623600536933 /* AppDelegate.swift */,
 				0720157E2A29623600536933 /* SceneDelegate.swift */,
-				072015802A29623600536933 /* ViewController.swift */,
+				072015B32A2972D600536933 /* View Controllers */,
+				072015A52A29626C00536933 /* DisplayItem.swift */,
+				072015A42A29626C00536933 /* DisplayItemProviders.swift */,
+				072015A02A29626B00536933 /* FHIRResources+DisplayItemProvider.swift */,
+				072015A32A29626B00536933 /* PartialFHIRResources.swift */,
+				072015A22A29626B00536933 /* PartialFHIRResources+DisplayItemProvider.swift */,
+				0720159D2A29626A00536933 /* RoundedButton.swift */,
+				0720159E2A29626B00536933 /* Utilities.swift */,
+				072015B52A2981C500536933 /* NOSHConnect.swift */,
 				072015822A29623600536933 /* Main.storyboard */,
 				072015852A29623700536933 /* Assets.xcassets */,
 				072015872A29623700536933 /* LaunchScreen.storyboard */,
 				0720158A2A29623700536933 /* Info.plist */,
 			);
 			path = "HIEofOne Connect";
+			sourceTree = "<group>";
+		};
+		072015B32A2972D600536933 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				072015B02A2972BA00536933 /* CategoryViewController.swift */,
+				072015AF2A2972BA00536933 /* ScannerViewController.swift */,
+				0720159F2A29626B00536933 /* FHIRSourceViewController.swift */,
+				072015A12A29626B00536933 /* MainViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +138,14 @@
 			dependencies = (
 			);
 			name = "HIEofOne Connect";
+			packageProductDependencies = (
+				072015912A29625400536933 /* ModelsBuild */,
+				072015932A29625400536933 /* ModelsDSTU2 */,
+				072015952A29625400536933 /* ModelsR4 */,
+				072015972A29625400536933 /* ModelsR4B */,
+				072015992A29625400536933 /* ModelsR5 */,
+				0720159B2A29625400536933 /* ModelsSTU3 */,
+			);
 			productName = "HIEofOne Connect";
 			productReference = 072015792A29623600536933 /* HIEofOne Connect.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +174,9 @@
 				Base,
 			);
 			mainGroup = 072015702A29623600536933;
+			packageReferences = (
+				072015902A29625400536933 /* XCRemoteSwiftPackageReference "FHIRModels" */,
+			);
 			productRefGroup = 0720157A2A29623600536933 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +204,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				072015812A29623600536933 /* ViewController.swift in Sources */,
+				072015A82A29626C00536933 /* FHIRSourceViewController.swift in Sources */,
+				072015A92A29626C00536933 /* FHIRResources+DisplayItemProvider.swift in Sources */,
+				072015B22A2972BA00536933 /* CategoryViewController.swift in Sources */,
+				072015AC2A29626C00536933 /* PartialFHIRResources.swift in Sources */,
 				0720157D2A29623600536933 /* AppDelegate.swift in Sources */,
+				072015AE2A29626C00536933 /* DisplayItem.swift in Sources */,
 				0720157F2A29623600536933 /* SceneDelegate.swift in Sources */,
+				072015AD2A29626C00536933 /* DisplayItemProviders.swift in Sources */,
+				072015A72A29626C00536933 /* Utilities.swift in Sources */,
+				072015A62A29626C00536933 /* RoundedButton.swift in Sources */,
+				072015B12A2972BA00536933 /* ScannerViewController.swift in Sources */,
+				072015AB2A29626C00536933 /* PartialFHIRResources+DisplayItemProvider.swift in Sources */,
+				072015B62A2981C500536933 /* NOSHConnect.swift in Sources */,
+				072015AA2A29626C00536933 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,11 +362,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "HIEofOne Connect/HIEofOne Connect.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = C8C6KX36TY;
+				DEVELOPMENT_TEAM = S83698T87Q;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "HIEofOne Connect/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We will use your camera in order to scan your qr code to connect to NOSH";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "We will send your health records to NOSH upon your request.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -313,11 +393,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "HIEofOne Connect/HIEofOne Connect.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = C8C6KX36TY;
+				DEVELOPMENT_TEAM = S83698T87Q;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "HIEofOne Connect/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We will use your camera in order to scan your qr code to connect to NOSH";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "We will send your health records to NOSH upon your request.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -358,6 +441,50 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		072015902A29625400536933 /* XCRemoteSwiftPackageReference "FHIRModels" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/FHIRModels.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		072015912A29625400536933 /* ModelsBuild */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 072015902A29625400536933 /* XCRemoteSwiftPackageReference "FHIRModels" */;
+			productName = ModelsBuild;
+		};
+		072015932A29625400536933 /* ModelsDSTU2 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 072015902A29625400536933 /* XCRemoteSwiftPackageReference "FHIRModels" */;
+			productName = ModelsDSTU2;
+		};
+		072015952A29625400536933 /* ModelsR4 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 072015902A29625400536933 /* XCRemoteSwiftPackageReference "FHIRModels" */;
+			productName = ModelsR4;
+		};
+		072015972A29625400536933 /* ModelsR4B */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 072015902A29625400536933 /* XCRemoteSwiftPackageReference "FHIRModels" */;
+			productName = ModelsR4B;
+		};
+		072015992A29625400536933 /* ModelsR5 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 072015902A29625400536933 /* XCRemoteSwiftPackageReference "FHIRModels" */;
+			productName = ModelsR5;
+		};
+		0720159B2A29625400536933 /* ModelsSTU3 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 072015902A29625400536933 /* XCRemoteSwiftPackageReference "FHIRModels" */;
+			productName = ModelsSTU3;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 072015712A29623600536933 /* Project object */;
 }
